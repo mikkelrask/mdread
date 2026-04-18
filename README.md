@@ -14,7 +14,7 @@ Inspired by tools like `zathura` and `sxiv`, `mdread` focuses on reading perform
 - **Smooth Scrolling**: Via keyboard or mouse.
 - **Heading Jumps**: Jump between sections with `{` and `}`.
 
-<img src="https://raw.githubusercontent.com/mikkelrask/mdread/main/img/screenshot.png" alt="mdread readme in mdread" style="margin: 0 auto; display: block;">
+<img src="https://raw.githubusercontent.com/mikkelrask/mdread/dev/img/screenshot.png?raw=true" alt="mdread readme in mdread" style="margin: 0 auto; display: block;">
 
 ## Usage
 
