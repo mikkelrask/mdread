@@ -80,21 +80,20 @@ CSS = """
     --bg:        #101010;
     --surface:   #161616;
     --border:    #343434;
-    --text:      #A0A0A0;
-    --muted:     #65737E;
+    --text:      #efefef;
+    --muted:     #505050;
     --accent:    #FFCFA8;
     --accent2:   #99FFE4;
-    --code-bg:   #161616;
+    --code-bg:   #101010;
+    --code-fg:   white;
     --link:      #FFCFA8;
     --hr:        #232323;
     --quote-bar: #FFCFA8;
 
-    --orange: #FFC799;
-    --cyan: #99FFE4;
-        
+    --orange:    #FFC799;
+    --cyan:      #99FFE4;
+    --red:       #FF8080;
 }
-
-
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -116,14 +115,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Literata', Georgia, serif;
     font-weight: 600;
-    color: var(--accent);
     line-height: 1.3;
     margin: 2.2rem 0 0.8rem;
+    color: var(--orange)
 }
 h1 { font-size: 2rem;   border-bottom: 1px solid var(--border); padding-bottom: .5rem; }
 h2 { font-size: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
-h3 { font-size: 1.2rem; color: var(--accent2); }
-h4 { font-size: 1.05rem; color: var(--accent2); }
+h3 { font-size: 1.2rem; color: var(--cyan); }
+h4 { font-size: 1.05rem; color: var(--red); }
 h5, h6 { font-size: 1rem; color: var(--muted); }
 
 p { margin: 1rem 0; }
@@ -162,7 +161,7 @@ pre code {
     color: white;
 }
 
-.highlight { background: var(--code-bg) !important; border-radius: 4px; color: var(--text); }
+.highlight { background: var(--code-bg) !important; border-radius: 4px; color: var(--code-fg); }
 .highlight .k, .highlight .kn, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .ow, .highlight .ow { color: var(--muted); }
 .highlight .nf, .highlight .nc, .highlight .fm, .highlight .nb { color: var(--orange); }
 .highlight .kt, .highlight .nc, .highlight .no { color: var(--orange); }

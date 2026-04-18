@@ -14,7 +14,7 @@ Inspired by tools like `zathura` and `sxiv`, `mdread` focuses on reading perform
 - **Smooth Scrolling**: Via keyboard or mouse.
 - **Heading Jumps**: Jump between sections with `{` and `}`.
 
-<img src="https://raw.githubusercontent.com/mikkelrask/mdread/dev/img/screenshot.png?raw=true" alt="mdread readme in mdread" style="margin: 0 auto; display: block;">
+<img src="img/screenshot.png?raw=true" alt="mdread readme in mdread" style="margin: 0 auto; display: block;">
 
 ## Usage
 
@@ -86,7 +86,7 @@ This will install mdread in your virtual environment. You can then just rerun `m
 
 ## Inspiration / Credits
 - The idea is inspired by [Mikkel Malmberg / @mikker](https://mikkelmalmberg.com/notes/01KPDNG8AM723KW4YJXRS890C1) and his exciting AI driven software adventures
-- Color scheme is based on **Vesper** by [Rauno Freiberg](https://rauno.me/) of Vercel
+- Color scheme is largely based on **Vesper** by [Rauno Freiberg](https://rauno.me/) of Vercel
 - Fonts used: **Literata** and **JetBrains Mono** from [Google Fonts](https://fonts.google.com/)
 
 <img src="src/mdread/mdread.webp" alt="mdread" width="200" height="200" style="margin: 0 auto; display: block;">
